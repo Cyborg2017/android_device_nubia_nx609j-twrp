@@ -93,6 +93,9 @@ BOARD_PERSISTIMAGE_PARTITION_SIZE := 33554432
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
+# Use mke2fs to create ext4 images
+TARGET_USES_MKE2FS := true
+
 # Workaround for error copying vendor files to recovery ramdisk
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
