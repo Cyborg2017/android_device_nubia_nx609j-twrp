@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := nx563j
+PRODUCT_RELEASE_NAME := nx609j
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -34,13 +34,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.gatekeeper=msm8998
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := nx563j
-PRODUCT_NAME := twrp_nx563j
+PRODUCT_DEVICE := nx609j
+PRODUCT_NAME := twrp_nx609j
 PRODUCT_BRAND := nubia
-PRODUCT_MODEL := Z17
+PRODUCT_MODEL := Red Magic
 PRODUCT_MANUFACTURER := nubia
 
-PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=NX563J PRODUCT_NAME=NX563J
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=NX609J PRODUCT_NAME=NX609J
 
 # Verity
 PRODUCT_SUPPORTS_BOOT_SIGNER := true
@@ -49,6 +49,6 @@ PRODUCT_SUPPORTS_VERITY_FEC := true
 PRODUCT_VERITY_SIGNING_KEY := build/target/product/security/verity
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="NX563J-user 7.1.1 NMF26X eng.nubia.20181008.160254 release-keys"
+    PRIVATE_BUILD_DESC="NX609J-user 8.1.0 OPM1.171019.011 eng.nubia.20190111.223500 release-keys"
 
-BUILD_FINGERPRINT := nubia/NX563J/NX563J:7.1.1/NMF26X/eng.nubia.20171019.101529:user/release-keys
+BUILD_FINGERPRINT := nubia/NX609J/NX609J:8.1.0/OPM1.171019.011/eng.nubia.20190111.223500:user/release-keys

@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_nx563j.mk
+    $(LOCAL_DIR)/twrp_nx609j.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_nx563j-eng \
-    twrp_nx563j-userdebug
+    twrp_nx609j-eng \
+    twrp_nx609j-userdebug
